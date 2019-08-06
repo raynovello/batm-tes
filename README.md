@@ -57,7 +57,13 @@ API token public : bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
     "code": 200
 }
 
-5. jika penambahan data customer gagal : 
+5. jika penambahan data customer dengan format email tidak valid :
+{
+    "message": "Email Format Invalid",
+    "code": 123
+}
+
+6. jika penambahan data customer gagal : 
 {
     "message":"Failed!"
 }
