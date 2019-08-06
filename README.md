@@ -24,7 +24,7 @@ API token public : bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
 
 * contoh hasil API (JSON)
 
-1. jika tidak menggunakan api token atau salah : 
+1. jika tidak menggunakan API token atau salah : 
 {
     "error": "Unauthenticated."
 }
@@ -46,7 +46,7 @@ API token public : bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
     ]
 }
 
-3. jika pengecekan data customer kosong akan menampilkan json : 
+3. jika pengecekan data customer kosong : 
 {
     "message": "Empty!"
 }
