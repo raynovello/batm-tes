@@ -2,8 +2,8 @@
 
 Terdapat 2 aplikasi yang dibuat dalam tes ini:
 
-1. Aplikasi server : https://www.rayhannovelo.com/demo/batm_server/public/
-2. Aplikasi client : https://www.rayhannovelo.com/demo/batm_client/public/
+1. Aplikasi server : https://www.rayhannovelo.com/demo/batm_server/public/ : Aplikasi server dijadikan sebagai servernya yang berfungsi mengelola data seperti (login, register, CRUD data customer dan Batch Processing) dari aplikasi client
+2. Aplikasi client : https://www.rayhannovelo.com/demo/batm_client/public/ : Aplikasi client digunakan untuk client dengan user interface yang user-friendly
 
 * Pengujian menggunakan aplikasi langsung :
 
@@ -14,7 +14,7 @@ Terdapat 2 aplikasi yang dibuat dalam tes ini:
 
 * Pengujian menggunakan postman
 
-api token public : bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
+API token public : bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
 
 1. Pengecekan data customer sebelum batch processing : https://demo.rayhannovelo.com/batm_server/public/api/customer?api_token=bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
 
@@ -22,7 +22,7 @@ api token public : bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
 
 3. Pengecekan data customer sesudah batch processing (Batch Processing dilakukan setiap 5 menit sesuai waktu server) : https://demo.rayhannovelo.com/batm_server/public/api/final_customer?api_token=bN38mu1EVIsDBQZGh6TCh98SwMiZC3abVgUQd2jHqaxfQmXyp7LWmLGVort0
 
-* contoh hasil api (JSON)
+* contoh hasil API (JSON)
 
 1. jika tidak menggunakan api token atau salah : 
 {
